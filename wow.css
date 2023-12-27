@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Cabin:wght@500&family=Luxurious+Roman&family=Montserrat+Alternates&family=Poppins&family=Raleway&family=Roboto&family=Roboto+Mono&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Cabin:wght@500&family=Luxurious+Roman&family=Montserrat+Alternates&family=Poppins&family=Raleway&family=Roboto&family=Roboto+Mono&family=Single+Day&family=Varela+Round&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    animation: 1.5s ease 0s infinite pulse;
+  }
+  
+  .box {
+    height: 90%;
+    max-height: 400px;
+  }
+  
+  #heart {
+    height: 100%;
+    margin-left: auto;
+    animation: 1.5s ease 1s infinite beat;
+  }
+  
+  @keyframes beat {
+    0%, 50%, 100% { transform: scale(1, 1); }
+    30%, 80% { transform: scale(0.92, 0.95); }
+  }
+  
+  @keyframes pulse {
+    0%, 50%, 100% {  background: rgb(255, 230, 230); }
+    30%, 80% {  background: rgb(255, 230, 230); }
+  }
+
+.dog{
+    width: 147px;
+    margin-top: -40%;
+    margin-bottom: 22%;
+    margin-left: 44%;
+}
+h1{
+    color: rgb(214, 89, 89);
+    margin-top:-47%;
+    margin-left: 44%;
+    font-family: 'Luxurious Roman', Alata;
+}
+p{
+    color: rgb(214, 89, 89);
+    font-family: 'Single Day', Alata;
+    font-size: 23px;
+    margin-left: 20px;
+    margin-top: 37%;
+}
